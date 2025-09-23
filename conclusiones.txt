@@ -1,0 +1,32 @@
+PETSTORE API TESTING - EJERCICIO COMPLETADO
+
+Ejercicio implementado exitosamente con 4 escenarios:
+
+1. ✅ Añadir una mascota a la tienda
+   - POST /pet con datos completos de mascota
+   - Verificación de creación exitosa (status 200)
+   - Validación de datos retornados
+
+2. ✅ Consultar la mascota ingresada previamente (Búsqueda por ID)
+   - GET /pet/{id} con el ID de la mascota creada
+   - Verificación de datos consistentes
+   - Status 200 confirmando existencia
+
+3. ✅ Actualizar nombre y estatus a "sold"
+   - PUT /pet con datos actualizados
+   - Cambio de status a "sold" y actualización de nombre
+   - Verificación de actualización exitosa
+
+4. ✅ Consultar por estatus "sold"
+   - GET /pet/findByStatus?status=sold
+   - Búsqueda de mascotas con status "sold"
+   - Verificación de que la mascota actualizada aparece en resultados
+
+Técnicas utilizadas:
+- Estilo simple similar al ejemplo de reqres.in
+- Requests HTTP con métodos POST, GET, PUT
+- Validaciones con match y status codes
+- Parámetros de query para búsquedas
+- JSON path expressions para assertions
+
+Estructura limpia y fácil de entender, siguiendo el patrón del ejemplo proporcionado.
