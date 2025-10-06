@@ -48,8 +48,12 @@ Antes de ejecutar los tests, descarga las dependencias definidas en el `pom.xml`
 ```bash
 mvn install -DskipTests
 
+---
+
 ### 📊 Reportes de resultados
 target/surefire-reports/karate-summary.html
+
+---
 
 #### 🧩 Escenarios de prueba cubiertos
 
@@ -60,6 +64,8 @@ target/surefire-reports/karate-summary.html
 | ✏️ **Actualizar nombre y estatus a “sold”** | Envía un PUT para modificar la mascota           |
 | 📋 **Consultar por estatus**                | Filtra mascotas con `status=sold`                |
 | ❌ **Eliminar mascota**                      | Verifica la eliminación de una mascota existente |
+
+---
 
 #### 🧠 Conocimientos aplicados
 
@@ -74,6 +80,8 @@ Comparación de respuestas JSON esperadas vs. reales
 Generación de reportes automáticos con Surefire
 
 Organización modular de escenarios en archivos .feature
+
+---
 
 👩‍💻 Autor
 
